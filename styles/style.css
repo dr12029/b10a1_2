@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0px;
 }
 
@@ -9,13 +9,14 @@
 }
 
 /* Nav bar styles */
-.nav-bar{
+.nav-bar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 50px 150px 48px 150px;
 }
-.nav-title{
+
+.nav-title {
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 28px;
@@ -25,7 +26,7 @@
     text-align: left;
 }
 
-.nav-btn{
+.nav-btn {
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 20px;
@@ -41,7 +42,7 @@
 }
 
 /* Banner styles */
-.banner{
+.banner {
     background-image: url(../assets/Hero-bg.png);
     background-repeat: none;
     height: 652px;
@@ -50,15 +51,17 @@
     align-items: center;
     margin-bottom: 74px;
 }
-.banner-main{
-width: 998px;
-height: 582px;
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-align-items: center;
+
+.banner-main {
+    width: 998px;
+    height: 582px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 }
-.banner-title{
+
+.banner-title {
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 48px;
@@ -68,7 +71,8 @@ align-items: center;
     text-align: center;
     margin: 24px 0px;
 }
-.banner-description{
+
+.banner-description {
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 16px;
@@ -78,7 +82,8 @@ align-items: center;
     text-align: center;
     margin: 24px 0px;
 }
-.banner-btn{
+
+.banner-btn {
     border-radius: 8px;
     background: rgb(13, 19, 33);
     padding: 21px 24px 21px 24px;
@@ -93,7 +98,7 @@ align-items: center;
 }
 
 /* Why web dev styles */
-.why-web-dev{
+.why-web-dev {
     width: 1140;
     height: 1393;
     display: flex;
@@ -103,14 +108,16 @@ align-items: center;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
 }
-.why-web{
+
+.why-web {
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 850px;
 }
-.why-web-title{
+
+.why-web-title {
     color: rgb(13, 19, 33);
     font-size: 32px;
     font-weight: 800;
@@ -118,7 +125,8 @@ align-items: center;
     text-align: center;
     margin: 24px 0px;
 }
-.why-web-description{
+
+.why-web-description {
     color: rgb(13, 19, 33);
     opacity: 0.7;
     font-size: 16px;
@@ -126,7 +134,8 @@ align-items: center;
     line-height: 26px;
     text-align: center;
 }
-.reason-1{
+
+.reason-1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -135,9 +144,10 @@ align-items: center;
     width: 850px;
     gap: 99px;
     border-radius: 16px;
-    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
 }
-.reason-2{
+
+.reason-2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -146,9 +156,10 @@ align-items: center;
     width: 850px;
     gap: 99px;
     border-radius: 16px;
-    background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(270.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
 }
-.reason-title{
+
+.reason-title {
     color: rgba(13, 19, 33, 0.7);
     font-size: 24px;
     font-weight: 700;
@@ -156,7 +167,8 @@ align-items: center;
     text-align: left;
     margin: 16px 0px;
 }
-.reason-details{
+
+.reason-details {
     color: rgb(13, 19, 33);
     font-size: 16px;
     font-weight: 400;
@@ -164,7 +176,8 @@ align-items: center;
     text-align: left;
     margin: 16px 0px;
 }
-.learn-more-btn{
+
+.learn-more-btn {
     box-sizing: border-box;
     border: 1px solid rgb(13, 19, 33);
     opacity: 0.7;
@@ -180,7 +193,7 @@ align-items: center;
 }
 
 /* My inspiration section styles */
-.my-inspiration{
+.my-inspiration {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -188,11 +201,13 @@ align-items: center;
     width: 1140px;
     margin: 90px auto 151px;
 }
-.inspiration-container{
+
+.inspiration-container {
     width: 852px;
     margin-bottom: 48px;
 }
-.inspiration-title{
+
+.inspiration-title {
     color: rgb(13, 19, 33);
     font-size: 32px;
     font-weight: 800;
@@ -200,54 +215,62 @@ align-items: center;
     text-align: center;
     margin-bottom: 24px;
 }
-.inspiration-details{
+
+.inspiration-details {
     color: rgb(13, 19, 33, 0.7);
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
     text-align: center;
 }
-.my-ins-video{
+
+.my-ins-video {
     width: 1140px;
     padding: 32px;
     box-sizing: border-box;
     border: 1px solid rgba(13, 19, 33, 0.2);
     border-radius: 16px;
 }
-.video{
+
+.video {
     border-radius: 16px;
 }
 
 /* My Current Target styles */
-.my-goals{
+.my-goals {
     width: 1140px;
     align-items: center;
     margin: 0px auto 111px;
 }
-.goals-title{
+
+.goals-title {
     width: 852px;
     margin: 0px auto 48px;
     text-align: center;
 }
-.goal-title{
+
+.goal-title {
     color: rgb(13, 19, 33);
     font-size: 32px;
     font-weight: 800;
     line-height: 37px;
     margin-bottom: 24px;
 }
-.goal-description{
+
+.goal-description {
     color: rgb(13, 19, 33, 0.7);
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
 }
-.targets{
+
+.targets {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.target-container1{
+
+.target-container1 {
     width: 364px;
     height: 299px;
     border-radius: 16px;
@@ -255,7 +278,8 @@ align-items: center;
     margin: 0px 24px;
     padding: 40px;
 }
-.target-container2{
+
+.target-container2 {
     width: 364px;
     height: 299px;
     border-radius: 16px;
@@ -263,7 +287,8 @@ align-items: center;
     margin: 0px 24px;
     padding: 40px;
 }
-.target-container3{
+
+.target-container3 {
     width: 364px;
     height: auto;
     border-radius: 16px;
@@ -271,12 +296,14 @@ align-items: center;
     margin: 0px 24px;
     padding: 40px;
 }
-.target-img{
+
+.target-img {
     width: 54px;
     height: 54px;
     margin-bottom: 24px;
 }
-.target{
+
+.target {
     margin-bottom: 8px;
     color: rgb(13, 19, 33);
     font-size: 24px;
@@ -284,7 +311,8 @@ align-items: center;
     line-height: 36px;
     text-align: left;
 }
-.target-details{
+
+.target-details {
     margin-bottom: 24px;
     color: rgb(13, 19, 33, 0.7);
     font-size: 16px;
@@ -292,10 +320,77 @@ align-items: center;
     line-height: 26px;
     text-align: left;
 }
-.learn{
+
+.learn {
     color: rgb(13, 19, 33);
     font-size: 16px;
     font-weight: 700;
     line-height: 19px;
     text-align: left;
+}
+
+/* Need support styles */
+.support {
+    background-image: url(../assets/handshake.jpg);
+    background-size: 100% 130%;
+    width: 1140px;
+    /* height: 313px; */
+    margin: 0px auto 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 64px 48px;
+}
+
+.support-box {
+    text-align: center;
+    width: 730px;
+    margin-bottom: 24px;
+}
+
+.support-title {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: center;
+    margin: 16px 0px;
+}
+
+.support-details {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    margin: 16px 0px;
+}
+
+.feedback-box {
+    display: flex;
+    gap: 16px;
+}
+
+#msg-me {
+    width: 548px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding: 19px 20px 19px 20px;
+    color: rgba(13, 19, 33, 0.4);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+}
+
+#submit-btn {
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    text-align: center;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding: 17px 20px 17px 20px;
 }
