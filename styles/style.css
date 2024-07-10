@@ -217,3 +217,85 @@ align-items: center;
 .video{
     border-radius: 16px;
 }
+
+/* My Current Target styles */
+.my-goals{
+    width: 1140px;
+    align-items: center;
+    margin: 0px auto 111px;
+}
+.goals-title{
+    width: 852px;
+    margin: 0px auto 48px;
+    text-align: center;
+}
+.goal-title{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    margin-bottom: 24px;
+}
+.goal-description{
+    color: rgb(13, 19, 33, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.targets{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.target-container1{
+    width: 364px;
+    height: 299px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    margin: 0px 24px;
+    padding: 40px;
+}
+.target-container2{
+    width: 364px;
+    height: 299px;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+    margin: 0px 24px;
+    padding: 40px;
+}
+.target-container3{
+    width: 364px;
+    height: auto;
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+    margin: 0px 24px;
+    padding: 40px;
+}
+.target-img{
+    width: 54px;
+    height: 54px;
+    margin-bottom: 24px;
+}
+.target{
+    margin-bottom: 8px;
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    text-align: left;
+}
+.target-details{
+    margin-bottom: 24px;
+    color: rgb(13, 19, 33, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+}
+.learn{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    text-align: left;
+}
